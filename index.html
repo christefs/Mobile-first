@@ -10,15 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 930px)">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="./Assets/Imgs/Group 19.svg" alt="Logo Batatabit">
+        <img src="./Assets/Imgs/Group19.png" alt="Logo Batatabit">
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas</h1>
             <p>Batatabit ayuda a navegar entre los diferentes precios y tendencias</p>
-            <a href="" class="header--button">Conoce nuestros planes <span></span></a>
+            <a href="#plans" class="header--button">Conoce nuestros planes <span></span></a>
         </div>
     </header>
     <main>
@@ -31,7 +32,7 @@
             </div>
             <section class="main-tables-container">
                 <div class="main-currency-table">
-                    <p class="currency-table--title">Monedas</p>
+                    <p class="currency-table--title color-title1">Monedas</p>
                     <div class="currency-table--container">
                         <table>
                             <tr> <!--Filas-->
@@ -44,7 +45,7 @@
                             </tr>
                             <tr> <!--Filas-->
                                 <td>Ripple</td>
-                                <td class="table__right">$2.17<span class="down"></span></td>
+                                <td class="table__right">$2.15<span class="down"></span></td>
                             </tr>
                             <tr> <!--Filas-->
                                 <td class="table__bottom-left">Stellar</td>
@@ -52,7 +53,34 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="currency-table--date">
+                    <div class="currency-table--date color-date1">
+                        <p><b>Actualizado:</b> 19 de julio 23:45 </p>
+                    </div>
+                </div>
+
+                <div class="main-currency-table">
+                    <p class="currency-table--title color-title2">Comisiones</p>
+                    <div class="currency-table--container">
+                        <table>
+                            <tr> <!--Filas-->
+                                <td class="table__top-left">Bitrade</td>
+                                <td class="table__top-right table__right">$12.96</td>
+                            </tr>
+                            <tr> <!--Filas-->
+                                <td>Bitpreco</td>
+                                <td class="table__right">$10.07</td>
+                            </tr>
+                            <tr> <!--Filas-->
+                                <td>Novadax</td>
+                                <td class="table__right">$13.15</td>
+                            </tr>
+                            <tr> <!--Filas-->
+                                <td class="table__bottom-left">Coinext</td>
+                                <td class="table__bottom-right table__right">$14.96</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency-table--date color-date2">
                         <p><b>Actualizado:</b> 19 de julio 23:45 </p>
                     </div>
                 </div>
@@ -88,10 +116,59 @@
                 </article>
             </section>
         </section>
-        <section></section>
-        <section></section>
+        <section class="bitcoin-img-container">
+            <h2>Conócelo hoy.</h2>
+        </section>
+        <section id="plans" class="main-plans-container">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container--card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container--card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--title">Pago Anual</h3>
+                        <p class="plan-card--price"><span>$</span> 99</p>
+                        <p class="plan-card--saving">* Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card--ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li> <a href="#">Linkedin</a></li>
+                <li> <a href="#">Crunchbase</a></li>
+                <li> <a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./Assets/Imgs/Group17.png" alt="Logo de Batatabit 2020" />
+        </section>
+    </footer>
 </body>
 </html>
 
