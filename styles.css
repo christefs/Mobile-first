@@ -419,13 +419,16 @@ main {
     line-height: 5.3rem;
     color: black;
     position: relative;
+
+    
 }
 .plan-card--price span {
     font-size: 1.3rem;
     font-weight: 500;
     position: absolute;
     bottom: 15px;
-    left: 37px;
+    left: calc(50% - 45px);
+   
 }
 .plan-card--saving {
     font-size: 1.2rem;
