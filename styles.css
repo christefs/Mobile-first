@@ -427,17 +427,34 @@ main {
     font-weight: 500;
     position: absolute;
     bottom: 15px;
-    left: calc(50% - 45px);
+    
    
 }
+.annual-price span {
+    left: calc(50% - 60px);
+}
+.semi-annual-price span {
+    left: calc(50% - 52px);
+}
+.monthly-price span {
+    left: calc(50% - 45px);
+}
+
 .plan-card--saving {
     font-size: 1.2rem;
     color: #757575;
 }
+/*
+.plan-info-container {
+    position: relative;
+}*/
 .plan-card--ca {
+    position: absolute;
+
     width: 150px;
     height: 48px;
-    margin-top: 20px;
+    /*margin-top: 10px;*/
+    bottom: 25px;
     background-color: #faf8f7;
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
@@ -445,6 +462,8 @@ main {
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
+
+    left: calc(50% - 75px);
 }
 .plan-card--ca span {
     display: inline-block;
